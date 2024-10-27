@@ -1,0 +1,169 @@
+*{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.p{
+    display: inline-block;
+}
+.back a{
+    background-color: black;
+    text-decoration: none;
+}
+.back{
+    border: 1px solid white;
+}
+.heading {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.cart-column {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 20%;
+    padding: 0px 0px 20px 0px; 
+}
+
+.card-image{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card-image img{
+    width: 100%;
+    height: 250px;
+    transition: .4s;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.content {
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+
+.card button{
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px;
+    border: 2px solid #fdfdfd3b;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.card button:hover {
+    background-color: transparent;
+}
+
+.checkout-btn {
+    margin: 50px auto;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.check-out {
+    border: 0;
+    padding: 12px 50px;
+    cursor: pointer;
+}
+
+.cart-box {
+    display: flex;justify-content: center;
+    margin: 20px 50px;
+    padding: 0px 0px;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.quantity {
+    display: flex;
+    width: 40%;
+    border: 1px solid #ffffff;
+    padding: 0px;
+    justify-content: space-between;
+    border-radius: 100px;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.quantity button{
+    width: 40%;
+    border-radius: 100px;
+    border: 0;
+    padding: 10px 0px;
+   
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.cart-box-content {
+    width: 30%;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 45%;
+
+        padding: 0px 0px 20px 0px;
+        /* margin: 0px auto; */
+    }
+    
+    .content {
+        padding: 10px 10px;
+    }
+
+    .cart-column {
+        gap: 10px;
+    }
+
+    .card-image img {
+        width: 100%;
+        height: 120px;
+        transition: .4s;
+    }
+
+    .content h2{
+        font-size: 20px;
+    }
+
+    .cart-box {
+        margin: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .cart-box-image {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .cart-box-content {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .cart-box-content h1{
+        font-size: 25px;
+    }
+
+    .quantity {
+        display: flex;
+        width: 50%;
+    }
+}
+
+  
